@@ -27,6 +27,13 @@
             background-color: lightgray;
             color: black;
         }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: gray;
+            font-weight: bold;
+        }
         td.num {
             text-align: right;
         }
@@ -35,7 +42,7 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
-        <caption>
+        <caption style="border: 1px solid black">
             População das Unidades Federativas
         </caption>
         <thead>
